@@ -1,0 +1,218 @@
+body {
+    background-color: black;
+    font-size: medium;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    text-align: center;
+    color: white;
+
+}
+
+#header {
+    font-size: medium;
+    color: white;
+    right: 0px;
+}
+#header>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    margin-top: 75px;
+    margin-left: 20px;
+}
+
+ul {
+    align-items: center;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 75px;
+    align-items: center;
+
+
+
+}
+
+.imgbg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0ch;
+    writing-mode: horizontal-tb;
+    font-size: 30px;
+
+
+}
+
+.imgbg-img {
+    margin-left: 20px;
+    margin-top: 100px;
+
+}
+
+
+
+
+#textButton {
+    background: #FFEB3B;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: 500px;
+    margin-left: 40px;
+    font-size: 19px;
+}
+
+
+
+.resume
+{
+    border-radius: 100px;
+   position: absolute;
+   top: 850px; 
+   right: 30px;
+   font-size: 19px;
+}
+
+.cvv{
+    background: #FFEB3B;
+    border: none;
+    border-radius: 100px;
+    font-size: 19px;
+}
+.cvv:hover{
+    background-color: white;
+}
+.footer{ position:absolute;
+    text-align: right;
+    padding-top: 70px;
+    margin-right: 3px;
+}
+
+.line{
+    text-align: left;
+
+}
+.facebook{
+    display: inline;
+    padding-left: 20px;
+    font-size:5px;
+}
+.facebook1{
+    width: 2%;
+} 
+
+ .checkbox{
+    position:absolute;
+    margin-top:60px;
+
+ }
+
+.checkbox input{
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid black
+}
+.checkbox button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.sub{
+    background-color:skyblue;
+    background-image: "C:\Users\PIYUSH RAJ\Downloads\bgpf.jpg";
+    padding:50px;
+    padding-top: 5px;
+    margin: 30px;
+    margin-top:100px;
+    width: 90%;
+    height:400px;
+    display: inline-table;
+    border: 2px solid yellow;
+    border-radius: 100px 100px 100px 100px;
+}
+
+#welcome-section{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    background-color:#222;
+    background-image:url(https://wallpapercave.com/wp/wp5320845.jpg);
+    background-size:cover;
+    background-clip:content-box;
+  }
+  #welcome-section h1{
+    color:#ffe6ff;
+    font-family:Lucida calligraphy;
+    font-size:50px;
+    position:relative;
+    left:-250px;
+  }
+  #welcome-section h2{
+    font-family:Comic Sans MS;
+    color:#ffe6ff;
+    position:relative;
+    left:-250px;
+    font-size:30px;
+  }
+
+
+  .image-gallery{
+    width:100%;
+    margin-top: 50px;
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+.code p{
+    text-align:center;
+   margin-top:200px;
+ }
+
+ #header:hover{
+    font-size:17px;
+    font-size-adjust: 50px;
+    transition: all .3s;
+ }
+ #welcome-section h1 h2{
+    font-size:17px;
+    font-size-adjust: 50px;
+    transition: all .3s;
+ }
+
+ #header ul li #jpg a{
+     text-decoration: none;
+     color: white;
+
+     
+    }
+
+    #jpg a
+    {
+        
+        width:100%;
+        border-radius: 150px 150px 150px 150px;
+        object-fit:cover;
+        box-shadow: 1px 2px 10px 5px white;
+    
+    }
